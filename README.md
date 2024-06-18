@@ -7,7 +7,7 @@ This repository contains the implementation of the cTOP (Combinatorial Transcrip
 To use the cTOP model, please follow the steps below to set up your environment.
 
 ### Prerequisites
-- MATLAB
+- MATLAB R2014b or higher
 - Python 3.8 or higher
 - Required Python packages (listed in `requirements.txt`)
 
