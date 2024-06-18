@@ -13,7 +13,7 @@ To use the cTOP model, please follow the steps below to set up your environment.
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/cTOP.git
+    git clone https://github.com/AMSSwanglab/cTOP_new.git
     cd cTOP
     ```
 
