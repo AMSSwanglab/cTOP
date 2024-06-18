@@ -49,11 +49,10 @@ python run_cTOP.py --input example/RAd4.csv --output example/RAd4.csv
 
 ## File Structure
 - `src/`: Contains the source code for the cTOP model.
-- `data/`: Directory for input data files.
-- `results/`: Directory where output results will be saved.
-- `examples/`: Contains example input data and output results for testing.
+- `tools/`: Contains the tools for the cTOP model.
+- `main/`: Contains main code for the cTOP model.
+- `example/`: Contains example input data for testing.
 - `requirements.txt`: Lists the Python packages required to run the cTOP model.
-- `run_ctop.py`: Main script to execute the cTOP model.
 
 ## Contact
 For any questions or issues, please contact the corresponding authors:
