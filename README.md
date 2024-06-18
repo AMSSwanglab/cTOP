@@ -7,6 +7,7 @@ This repository contains the implementation of the cTOP (Combinatorial Transcrip
 To use the cTOP model, please follow the steps below to set up your environment.
 
 ### Prerequisites
+- MATLAB
 - Python 3.8 or higher
 - Required Python packages (listed in `requirements.txt`)
 
@@ -43,7 +44,7 @@ python run_ctop.py --input data/input_data.csv --output results/output_results.c
 You can find example input data and expected output in the `examples` directory. To test the model with the example data, run:
 
 ```bash
-python run_ctop.py --input examples/input_data.csv --output examples/output_results.csv
+python run_ctop.py --input examples/RAd4.csv --output examples/RAd4.csv
 ```
 
 ## File Structure
