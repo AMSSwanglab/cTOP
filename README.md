@@ -33,7 +33,7 @@ To use the cTOP model, please follow the steps below to set up your environment.
 To run the cTOP model, use the provided scripts with the appropriate input data. Below is an example of how to run the main script:
 
 ```bash
-python run_ctop.py --input data/input_data.csv --output results/output_results.csv
+python run_cTOP.py --input data/input_data.csv --output results/output_results.csv
 ```
 
 ### Arguments
@@ -41,10 +41,10 @@ python run_ctop.py --input data/input_data.csv --output results/output_results.c
 - `--output`: Path to save the output results.
 
 ### Example
-You can find example input data and expected output in the `examples` directory. To test the model with the example data, run:
+You can find example input data and expected output in the `example` directory. To test the model with the example data, run:
 
 ```bash
-python run_ctop.py --input examples/RAd4.csv --output examples/RAd4.csv
+python run_cTOP.py --input example/RAd4.csv --output example/RAd4.csv
 ```
 
 ## File Structure
