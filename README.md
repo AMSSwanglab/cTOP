@@ -55,8 +55,5 @@ python run_cTOP.py --input example/RAd4.csv --output example/RAd4.csv
 - `requirements.txt`: Lists the Python packages required to run the cTOP model.
 
 ## Contact
-For any questions or issues, please contact the corresponding authors:
-- Wen Wang: [wenwang@nwpu.edu.cn](mailto:wenwang@nwpu.edu.cn)
-- Yong Wang: [ywang@amss.ac.cn](mailto:ywang@amss.ac.cn)
-- Dingjun Hao: [haodingjun@mail.xjtu.edu.cn](mailto:haodingjun@mail.xjtu.edu.cn)
-- Qiang Qiu: [qiuqiang@nwpu.edu.cn](mailto:qiuqiang@nwpu.edu.cn)
+For any questions or issues, please contact:
+- Ziyu Xu: [xuziyu231@mails.ucas.ac.cn](mailto:xuziyu231@mails.ucas.ac.cn)
