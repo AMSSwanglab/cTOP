@@ -33,18 +33,22 @@ To use the cTOP model, please follow the steps below to set up your environment.
 To run the cTOP model, use the provided scripts with the appropriate input data. Below is an example of how to run the main script:
 
 ```bash
-python run_cTOP.py --input data/input_data.csv --output results/output_results.csv
+bash run_cTOP.sh $sample
 ```
 
-### Arguments
-- `--input`: Path to the input data file.
-- `--output`: Path to save the output results.
+`$sample` is the name of the sample you are analyzing.
 
 ### Example
-You can find example input data and expected output in the `example` directory. To test the model with the example data, run:
+You can reproduce the results from the paper using the data provided in the `examples` directory.
 
+First, generate the regulatory network using the PECA model:
 ```bash
-python run_cTOP.py --input example/RAd4.csv --output example/RAd4.csv
+bash PECA.sh lurong hg38
+```
+
+Then, apply the generated regulatory network and data to the cTOP model:
+```bash
+bash run_cTOP.sh lurong
 ```
 
 ## File Structure
