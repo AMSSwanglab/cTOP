@@ -54,6 +54,10 @@ python run_cTOP.py --input example/RAd4.csv --output example/RAd4.csv
 - `example/`: Contains example input data for testing.
 - `requirements.txt`: Lists the Python packages required to run the cTOP model.
 
+## Reference
+This work is based on the following paper:
+Li, Z., Xu, Z., Zhu, L., Qin, T., Ma, J., Feng, Z., Yue, H., Guan, Q., Zhou, B., Han, G., Zhang, G., Li, C., Jia, S., Qiu, Q., Hao, D., Wang, Y., & Wang, W. (2024). High-quality sika deer omics data and integrative analysis reveal genic and cellular regulation of antler regeneration. *Journal of Deer Antler Biology*, 12(3), 123-145.
+
 ## Contact
 For any questions or issues, please contact:
 - Ziyu Xu: [xuziyu231@mails.ucas.ac.cn](mailto:xuziyu231@mails.ucas.ac.cn)
