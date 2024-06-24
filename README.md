@@ -30,25 +30,17 @@ To use the cTOP model, please follow the steps below to set up your environment.
     ```
 
 ## Usage
-To run the cTOP model, use the provided scripts with the appropriate input data. Below is an example of how to run the main script:
+To reproduce the results from the research paper and conduct similar analyses with other datasets, follow these steps. Input datasets are located in the `Input` folder. This section skips the regulatory network generation process, which uses the PECA method (detailed at [PECA repository](https://github.com/SUwonglab/PECA)), and directly utilizes the pre-built regulatory network.
+
+To run the cTOP model, execute the following command in your terminal:
 
 ```bash
 bash run_cTOP.sh $sample
 ```
 
-`$sample` is the name of the sample you are analyzing.
+`$sample` is the name of the sample you are analyzing. For this example, use `POPP_B` as the sample name.
 
-### Example
-You can reproduce the results from the paper using the data provided in the `examples` directory.
-
-First, generate the regulatory network using the PECA model:
-```bash
-bash PECA.sh lurong hg38
-```
-
-Then, apply the generated regulatory network and data to the cTOP model:
-```bash
-bash run_cTOP.sh lurong
+Results from the cTOP model can be saved in the `Results` folder for easy reference (this folder might need to be created before running the model to store the results).
 ```
 
 ## File Structure
