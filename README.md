@@ -51,7 +51,7 @@ Results from the cTOP model can be saved in the `Results` folder for easy refere
 
 ## Reference
 This work is based on the following paper:
-Li, Z., Xu, Z., Zhu, L., Qin, T., Ma, J., Feng, Z., Yue, H., Guan, Q., Zhou, B., Han, G., Zhang, G., Li, C., Jia, S., Qiu, Q., Hao, D., Wang, Y., & Wang, W. (2024). High-quality sika deer omics data and integrative analysis reveal genic and cellular regulation of antler regeneration. *Genome Research*, 12(3), 123-145.
+Li, Z., Xu, Z., Zhu, L., Qin, T., Ma, J., Feng, Z., Yue, H., Guan, Q., Zhou, B., Han, G., Zhang, G., Li, C., Jia, S., Qiu, Q., Hao, D., Wang, Y., & Wang, W. (2024). High-quality sika deer omics data and integrative analysis reveal genic and cellular regulation of antler regeneration. *in review*.
 
 ## Contact
 For any questions or issues, please contact:
