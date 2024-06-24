@@ -30,7 +30,7 @@ To use the cTOP model, please follow the steps below to set up your environment.
     ```
 
 ## Usage
-To reproduce the results from the research paper and conduct similar analyses with other datasets, follow these steps. Input datasets are located in the `Input` folder. This section skips the regulatory network generation process, which uses the PECA method (detailed at [PECA repository](https://github.com/SUwonglab/PECA)), and directly utilizes the pre-built regulatory network.
+To reproduce the results from the research paper and conduct similar analyses, follow these steps. The cTOP model requires three types of input data: paired bulk RNA-seq & ATAC-seq and scRNA-seq data, all of which can be found in the supplementary data of the publication. For ease of use, the `Input` folder already includes the regulatory network generated from the paired bulk RNA-seq & ATAC-seq data via the PECA model, detailed at the [PECA repository](https://github.com/SUwonglab/PECA). This setup allows you to focus solely on downloading the scRNA-seq data to replicate the study's findings.
 
 To run the cTOP model, execute the following command in your terminal:
 
