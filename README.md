@@ -41,7 +41,6 @@ bash run_cTOP.sh $sample
 `$sample` is the name of the sample you are analyzing. For this example, use `POPP_B` as the sample name.
 
 Results from the cTOP model can be saved in the `Results` folder for easy reference (this folder might need to be created before running the model to store the results).
-```
 
 ## File Structure
 - `src/`: Contains the source code for the cTOP model.
